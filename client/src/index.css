@@ -1,0 +1,26 @@
+/* main CSS file (e.g., index.css or App.css) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+body {
+  background: black;
+}
+
+* {
+  font-family: gilroy;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+toast{
+  color:black
+}
